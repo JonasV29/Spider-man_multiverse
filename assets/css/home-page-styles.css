@@ -130,8 +130,8 @@ body::before {
 .s-controller__button--active {
   color: var(--primary-color);
   background-color: white;
-  border: 3px solid var(--primary-color);
-  outline: 2px solid white;
+  border: 0.1875rem solid var(--primary-color);
+  outline: 0.125rem solid white;
 }
 
 
