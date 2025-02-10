@@ -1,9 +1,10 @@
-@import url('reset.css');
+@import url('reset.css');  /* Adicionando os arquivos CSS já feitos */
 @import url('global.css');
 
-@import url('components/_gallery.css');
+    /* Outros Componentes */
+@import url('components/_gallery.css');  /* Adicionando novos componentes */
 @import url('components/_pills.css');
-@import url('components/_link-button.css');
+@import url('components/_link-button.css');  /* Organizando o código */
 @import url('components/_navigator.css');
 
 .s-wrapper {
@@ -15,17 +16,21 @@
 .s-wrapper .s-left-column {
   width: 100px;
   height: 100%;
-  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  padding-right: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
 }
 
 .s-wrapper .s-main-content{
   height: 100%;
   width: 100%;
   background-color: gray;
-  padding-left: 30px;
+  padding-left: 130px;
 }
 
 .s-wrapper .s-main-content__top {

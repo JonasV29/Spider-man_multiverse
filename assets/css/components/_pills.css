@@ -1,6 +1,6 @@
 .pills ul{
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  /* Pills das páginas internas */
 }
 
 .pills ul li{

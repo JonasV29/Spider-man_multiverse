@@ -19,7 +19,7 @@ a.link-button .icon{
     justify-content: center;
 }
 
-a.link-button .icon .play-icon{
+a.link-button .icon .play-icon{  /* Cria o ícone do botão de assitir o trailer */
     border:solid 7px white;
     width:0;
     height: 0;
